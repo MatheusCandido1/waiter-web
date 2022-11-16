@@ -1,3 +1,14 @@
+import { GlobalStyles } from './styles/GlobalStyles';
+
+import { Header } from './components/Header';
+import { Orders } from './components/Orders';
+
 export function App() {
-  return <h1>Waiter Web</h1>
+  return (
+    <>
+      <GlobalStyles />
+      <Header />
+      <Orders />
+    </>
+  );
 }
